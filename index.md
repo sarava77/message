@@ -4,7 +4,10 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-
+			window.addEventListener("onEmbeddedMessagingReady", () => {
+			      console.log("Inside PreChat API");
+			      embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"languageCode": "en", "territoryCode": "GB"});
+			    });
 			embeddedservice_bootstrap.init(
 				'00Dds00000005yz',
 				'Help',
