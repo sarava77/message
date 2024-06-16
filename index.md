@@ -7,7 +7,7 @@
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 			      console.log("Inside PreChat API");
 			      embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"languageCode": "en", "territoryCode": "GB",
-				"caseClassification":"Test Classification", "caseLastArticleViewed": "Sample View", "casePageURL":"help.salesforce.com",
+				"caseClassification":"Test Classification", "caseLastArticleViewed": "Sample View", "casePageURL":"https://help.salesforce.com/",
 				 "caseServiceType":"TV", "caseSubject":"Messaging Test", "caseTrackingId" : "123-43232-131323","caseType":"Cancellation",
 				 "marketingVisitorId" : "09131-33232-1331", "userLoggedInStatus":"true"});
 			    });
