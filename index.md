@@ -6,7 +6,7 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; 
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 			      console.log("Inside PreChat API");
-			      embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"languageCode": "en", "territoryCode": "GB"});
+			      embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"languageCode": "en", "territoryCode": "NL","caseClassification":"Test Classification", "caseLastArticleViewed": "Sample View", "casePageURL":"https://help.salesforce.com/","caseServiceType":"TV", "caseSubject":"Messaging Test", "caseTrackingId" : "123-43232-131323","caseType":"Cancellation","marketingVisitorId" : "09131-33232-1331", "userLoggedInStatus":"true"});
 			    });
 			embeddedservice_bootstrap.init(
 				'00Dds00000005yz',
