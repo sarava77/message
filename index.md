@@ -5,9 +5,9 @@
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; 
 			window.addEventListener("onEmbeddedMessagingReady", () => {
-			      console.log("Inside PreChat API");
-			      embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"Lang_Code": "en", "Ter_Code": "NL", "caseSubject": "Messaging Test","caseServiceType": "TV", "caseType": "Cancellation"});
-				 });
+			console.log("Inside PreChat API");
+			embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "langCodeParam" : "en","terCodeParam": "NL", "caseSubjectParam": "Message API"} );
+			});
 			embeddedservice_bootstrap.init(
 				'00Dds00000005yz',
 				'Help',
