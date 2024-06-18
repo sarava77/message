@@ -6,7 +6,7 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; 
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 			console.log("Inside PreChat API");
-			embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "langCodeParam" : "en","terCodeParam": "NL", "caseSubjectParam": "Message API","caseClassificationParam": "Test Classification", "caseServiceTypeParam" : "TV","caseTypeParam":"Cancellation", "contactIdParam" : "0016N00000eKC1DQAW", "lastArticleViewedParam": "Sample View","loggedInStatusParam": "true", "trackingIdParam":"123456", "urlParam": "https://sarava77.github.io/message/"} );
+			embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "langCodeParam" : "en","terCodeParam": "NL", "caseSubjectParam": "Message API","caseClassificationParam": "Test Classification", "caseServiceTypeParam" : "TV","caseTypeParam":"Cancellation", "lastArticleViewedParam": "Sample View","loggedInStatusParam": "true", "trackingIdParam":"123456", "urlParam": "https://sarava77.github.io/message/"} );
 			});
 			embeddedservice_bootstrap.init(
 				'00Dds00000005yz',
